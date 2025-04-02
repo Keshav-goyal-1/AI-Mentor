@@ -76,7 +76,7 @@ const AboutSection = () => {
           />
           
           <Maker 
-            name="Ashwani"
+            name="Ashwani Kumar"
             role="Frontend Developer"
             bio="lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             image="/placeholder.svg"
