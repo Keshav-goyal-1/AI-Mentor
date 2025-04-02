@@ -76,9 +76,9 @@ const AboutSection = () => {
           />
           
           <Maker 
-            name="Aswani"
-            role="ML Engineer"
-            bio="Machine learning expert with a passion for creating intelligent systems that empower learners to achieve their goals."
+            name="Ashwani"
+            role="Frontend Developer"
+            bio="lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             image="/placeholder.svg"
             github="https://github.com/sarahc"
             twitter="https://twitter.com/sarahc"
