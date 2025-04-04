@@ -80,7 +80,7 @@ const AboutSection = () => {
             role="Frontend Developer"
             bio="lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             image="/placeholder.svg"
-            github="https://github.com/sarahc"
+            github="https://github.com/Ashwani-Kumar-2508"
             twitter="https://twitter.com/sarahc"
             linkedin="https://linkedin.com/in/sarahc"
           />
