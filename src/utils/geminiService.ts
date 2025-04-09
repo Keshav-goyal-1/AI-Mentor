@@ -10,13 +10,18 @@ export async function generateAIResponse(
 ): Promise<Message> {
   try {
     const prompt = `
-      You are an AI coding mentor helping someone learn ${language} programming.
-      Their skill level is: ${difficulty}
-      Their question is: "${userText}"
-      
-      Provide a helpful, educational response that explains concepts clearly.
-      If appropriate, include code examples that demonstrate the concept.
-      Tailor your explanation to their ${difficulty} skill level.
+       You are an AI coding mentor. Answer the following question briefly and formally:
+
+      Question: "${userText}"
+      Skill level: ${difficulty}
+      Language context: ${language}
+
+      Instructions:
+      - Respond in bullet points or numbered format.
+      - Be clear, accurate, and to-the-point.
+      - Do not over-explain.
+      - Include only relevant information.
+      - Add a short code example only if necessary.
     `;
 
     const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
